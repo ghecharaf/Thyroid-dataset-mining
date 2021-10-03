@@ -1,0 +1,76 @@
+1. Titre de la base de données:
+   Données sur la glande thyroïde. (fonctionnement normal, hypo et hyper)
+
+2. Sources:
+   (a) Propriétaire d'origine
+   Danny Coomans, Département de mathématiques. and Stats., Université James Cook,
+   Townsville 4811, Australie. courriel: madhc@manta.jcu.edu.au
+   (b) Donateur de la base de données
+Stefan Aeberhard, Département de Comp. Science, Université James Cook,
+        Townsville 4811, Australie. courriel: stefan@coral.cs.jcu.edu.au
+   (c) Date de réception
+Juillet 1992
+
+3. Utilisation passée:
+   - a) Coomans, D., Broeckaert, M. Jonckheer M. et Massart D.L.,
+       "Comparaison des techniques discriminantes multivariées pour
+Données cliniques - Application à l'état fonctionnel de la thyroïde ",
+Meth. Informer. Med. 22 (1983) pages 93-101.
+
+     (b) Les données ont été utilisées pour comparer 16 discriminants différents
+techniques, chacune essayant de prédire l'état du
+glande thyroïde.
+
+   - (a) Coomans, D. et I. Broeckaert, "Potential Pattern Recognition
+in Cemical and Medical Decision Making ", Research Studies Press,
+Letchworth, Angleterre.
+
+     (b) Utilise les données pour comparer différentes densités de noyau
+méthodes. Certains atteignent une classification correcte à 100%.
+
+4. Paragraphe d'informations pertinentes:
+
+Cinq laboratoires. les tests sont utilisés pour essayer de prédire si un patient
+thyroïde à la classe euthyroïdie, hypothyroïdie ou
+hyperthyroïdie. Le diagnostic (l'étiquette de classe) était basé
+sur un dossier médical complet, y compris l'anamnèse, le scan, etc.
+
+5. Nombre d'instances
+
+215
+
+6. Nombre d'attributs
+
+5
+
+7. Pour chaque attribut: (veuillez indiquer l'acronyme et le nom complet si les deux existent)
+
+Attr. num :
+
+1: attribut de classe (1 = normal, 2 = hyper, 3 = hypo)
+2: test d'absorption de la résine T3. (Un pourcentage)
+3: thyroxine sérique totale mesurée par l'isotopique
+méthode de déplacement.
+4: Triiodothyronine sérique totale mesurée par radio-immuno
+essai.
+5: hormone basale de stimulation de la thyroïde (TSH) mesurée par
+test radioimmuno.
+6: Différence absolue maximale de la valeur TSH après injection de
+200 micro grammes d'hormone de libération de la thyrotropine par rapport
+à la valeur basale.
+
+Tous les attributs sont continus.
+
+(Remarque, il y a une légère possibilité d'avoir le
+numéros d'attribut mélangés, voir [2a] si cela compte.)
+
+
+8. Valeurs d'attribut manquantes: combien pour chaque attribut?
+
+Aucun
+
+9. Distribution de classe: nombre d'instances par classe
+
+Classe 1: (normal) 150
+Classe 2: (hyper) 35
+Classe 3: (hypo) 30

@@ -1,0 +1,123 @@
+.pane{
+    -fx-background-size: 1200 900;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+    -fx-background-color: radial-gradient(radius 180%, #b12a5b, derive(#ff8177, -30%), derive(#ff8177, 30%));
+
+}
+.pane2{
+    -fx-background-size: 1200 900;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 0 0 18 18;
+
+}
+.pane3{
+    -fx-background-size: 1200 900;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 0 0 18 18;
+
+
+}
+.SearchButton
+{
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 18 18 18 18;
+    -fx-background-color: WHite;
+
+}
+.Search
+{
+    -fx-background-radius: 18 18 18 18;
+
+    -fx-background-color: #adadae;
+
+
+}
+.button
+{  -fx-background-color: transparent;
+    -fx-border-width: 10px
+
+
+}
+.jfx-snackbar-content{
+    -fx-background-color:#26f188;
+    -fx-text-fill: WHITE;
+
+    -fx-font-family: "Microsoft YaHei UI Light";
+    -fx-font-size: 20;
+
+}
+.pane4
+{-fx-background-size: 1200 900;
+    -fx-background-radius: 18 18 18 18;
+    -fx-border-radius: 0 0 18 18;
+    -fx-background-color: radial-gradient(radius 180%, #2AF598, derive(#009EFD, -30%), derive(#2AF598, 30%))
+}
+
+
+.table-view .table-cell{
+    -fx-border-color: transparent;
+
+    -fx-border-radius: 10;
+    -fx-font-family: "Microsoft JhengHei Light";
+    -fx-font-size: 16;
+    -fx-alignment: center;
+
+ }
+
+.table-row-cell: hover {
+    -fx-background-color: radial-gradient(radius 180%, #2AF598, derive(#009EFD, -30%), derive(#2AF598, 30%))
+    -fx-text-background-color: red;
+}
+
+.table-row-cell: odd{
+
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell: even{
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em;
+}
+.table-view .virtual-flow .scroll-bar:vertical,
+.table-view .virtual-flow .scroll-bar:vertical .track,
+.table-view .virtual-flow .scroll-bar:vertical .track-background,
+.table-view .virtual-flow .scroll-bar:horizontal,
+.table-view .virtual-flow .scroll-bar:horizontal .track,
+.table-view .virtual-flow .scroll-bar:horizontal .track-background {
+    -fx-background-color: transparent;
+}
+.table-view .virtual-flow .scroll-bar .increment-button,
+.table-view .virtual-flow .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+    -fx-padding: 2;
+}
+.table-view .virtual-flow .scroll-bar:vertical .thumb{
+    -fx-background-color:  linear-gradient(to bottom, #1dbbdd44, #2AF598);
+}
+.table-view .virtual-flow .scroll-bar:horizontal .thumb {
+    -fx-background-color: radial-gradient(radius 180%, #2AF598, derive(#009EFD, -30%), derive(#2AF598, 30%));
+}
+.table-row-cell: highlighted {
+    -fx-background-color: #81c483;
+    -fx-background-radius: 15px;
+}
+.table-view .column-header-background{
+    -fx-background-color:radial-gradient(radius 180%, #b12a5b, derive(#ff8177, -30%), derive(#ff8177, 30%));
+
+    -fx-border-radius: 50;
+}
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-family: "Microsoft JhengHei Light";
+    -fx-font-size: 16;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+
+    -fx-border-radius: 50;
+
+}

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DataMining:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DataMining_jar</output-path>
+    <root id="archive" name="DataMining.jar">
+      <element id="module-output" name="DataMining" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/github/typhon0/AnimateFX/1.2.0/AnimateFX-1.2.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/fxgraphics2d-1.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jfreechart-fx-1.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jfreechart-1.5.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jfoenix-8.0.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
